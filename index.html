@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/base.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="asset/fontawesome-free-5.14.0-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <!-- header -->
+            <div class="header_navbar">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-6 ">
+                            <ul class="navbar-list d-flex ">
+                                <li class="navbar-list-item p-2">
+                                    <a href="">Kênh Người Bán</a>
+
+                                </li>
+                                <li class="navbar-list-item header-down_app p-2">
+                                    <a href="">Tải ứng dụng</a>
+                                    <div class="header-qr">
+                                        <img src="asset/image/QR_code.png" alt="QR code" class="header_qr-img">
+                                        <div class="down-list_app d-flex">
+                                            <a href="" class="header_qr-link"> <img src="asset/image/CH-Play.png"
+                                                    alt="Google Play" class="header_qr-download-img"></a>
+                                            <a href="" class="header_qr-link"> <img src="asset/image/App-Store.png"
+                                                    alt="App Store" class="header_qr-download-img"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="navbar-list-item p-2">
+                                    <span>kết nối</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="navbar-list navbar-list-right d-flex">
+                                <li class="navbar-list-item p-2">
+                                    <a href="">
+                                        <i class="far fa-bell"></i>
+                                        <span>Thông báo</span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-item p-2">
+                                    <a href="">
+                                        <i class="far fa-question-circle"></i>
+                                        <span>Trợ Giúp</span>
+                                    </a>
+                                </li>
+                                <li class="navbar-list-item p-2">
+                                    <a href="">Đăng Ký</a>
+                                </li>
+                                <li class="navbar-list-item p-2">
+                                    <a href="">Đăng Nhập</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center align-items-center p-3">
+                        <div class="col-2">
+                            <div class="logo">
+                                <img src="asset/image/LogoShopee.png" alt="" class="logo-img">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="form">
+                                <form action="" class="form_search d-flex">
+                                    <input type="text" placeholder="11.11 - Đón trờ deal 1k">
+                                    <div class="search">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="see-more">
+                                <ul class="more-list d-flex m-0 pt-1 ">
+                                    <li class="more-item pr-3">Scandal Nữ</li>
+                                    <li class="more-item pr-3">Hoodie Nam</li>
+                                    <li class="more-item pr-3">Dép Nam</li>
+                                    <li class="more-item pr-3">Balo Nữ</li>
+                                    <li class="more-item pr-3">Áo Nữ</li>
+                                    <li class="more-item pr-3">Quần Nam</li>
+                                    <li class="more-item pr-3">Quần Nữ</li>
+                                    <li class="more-item pr-3">Balo Nam</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="shop_cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- bander -->
+            <div class="header-bander">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 bander_list">
+                            <div class="bander">
+                                <section class="home">
+                                    <div class="slider">
+                                        <div class="slide active"
+                                            style="background-image: url('asset/image/bander1.jpg')">
+                                        </div>
+                                        <div class="slide" style="background-image: url('asset/image/bander2.jpg')">
+                                        </div>
+                                        <div class="slide" style="background-image: url('asset/image/bander3.jpg')">
+                                        </div>
+                                        <div class="slide" style="background-image: url('asset/image/bander4.jpg')">
+                                        </div>
+                                        <div class="slide" style="background-image: url('asset/image/bander5.jpg')">
+                                        </div>
+                                        <div class="slide" style="background-image: url('asset/image/bander6.jpg')">
+                                        </div>
+                                        <div class="slide" style="background-image: url('asset/image/bander7.jpg')">
+                                        </div>
+                                        <div class="slide" style="background-image: url('asset/image/bander8.jpg')">
+                                        </div>
+                                        <div class="slide" style="background-image: url('asset/image/bander9.jpg')">
+                                        </div>
+                                        <div class="slide" style="background-image: url('asset/image/bander10.jpg')">
+                                        </div>
+                                    </div>
+                                    <!-- controls  -->
+                                    <div class="controls">
+                                        <div class="prev"><i class="fas fa-chevron-left"></i></div>
+                                        <div class="next"><i class="fas fa-chevron-right"></i></div>
+                                    </div>
+
+                                    <!-- indicators -->
+                                    <div class="indicator">
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-4 bander-right_list">
+                            <div class="bander-right">
+                                <div class="advertisement">
+                                    <img src="asset/image/adv1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="bander-right">
+                                <div class="advertisement advertisement_late">
+                                    <img src="asset/image/adv2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- trademark -->
+            <div class="header_trademark">
+                <div class="container">
+                    <ul class="trademark-list d-flex">
+                        <li class="trademark-item">
+                            <div class="bolt-sale trademark_icon">
+                                <img src="asset/image/SanSale.gif" alt="">
+                            </div>
+                            <div class="title-trademarke">
+                                <span>Khung giờ săn <br> sale</span>
+                            </div>
+                        </li>
+                        <li class="trademark-item">
+                            <div class="world-item trademark_icon">
+                                <img src="asset/image/world-item.png" alt="">
+                            </div>
+                            <div class="title-trademarke">
+                                <span>Hàng Quốc Tế</span>
+                            </div>
+                        </li>
+                        <li class="trademark-item">
+                            <div class="free-ship trademark_icon">
+                                <img src="asset/image/free-ship.png" alt="">
+                            </div>
+                            <div class="title-trademarke">
+                                <span>Freeship Xtra</span>
+                            </div>
+                        </li>
+                        <li class="trademark-item">
+                            <div class="beauty-club trademark_icon">
+                                <img src="asset/image/beauty-club.png" alt="">
+                            </div>
+                            <div class="title-trademarke">
+                                <span>Beauty Club - Quà 1 triệu</span>
+                            </div>
+                        </li>
+                        <li class="trademark-item">
+                            <div class="return-coin trademark_icon">
+                                <img src="asset/image/return-coin.png" alt="">
+                            </div>
+                            <div class="title-trademarke">
+                                <span>Hoàn Xu Đơn Bất Kỳ</span>
+                            </div>
+                        </li>
+                        <li class="trademark-item">
+                            <div class="premium-shop trademark_icon">
+                                <img src="asset/image/diamond.png" alt="">
+                            </div>
+                            <div class="title-trademarke">
+                                <span>Shoppe Premium</span>
+                            </div>
+                        </li>
+                        <li class="trademark-item">
+                            <div class="bander-item trademark_icon">
+                                <img src="asset/image/dolar.png" alt="">
+                            </div>
+                            <div class="title-trademarke">
+                                <span>Bander Discound</span>
+                            </div>
+                        </li>
+                        <li class="trademark-item">
+                            <div class="mum-club trademark_icon">
+                                <img src="asset/image/mum-club.png" alt="">
+                            </div>
+                            <div class="title-trademarke">
+                                <span>Mun Club - Mẹ Thông Thái</span>
+                            </div>
+                        </li>
+                        <li class="trademark-item">
+                            <div class="discound trademark_icon">
+                                <img src="asset/image/Discound.png" alt="">
+                            </div>
+                            <div class="title-trademarke">
+                                <span>Săn Siêu Sale</span>
+                            </div>
+                        </li>
+                        <li class="trademark-item">
+                            <div class="electronic trademark_icon">
+                                <img src="asset/image/laptop.png" alt="">
+                            </div>
+                            <div class="title-trademarke">
+                                <span>Tech Zone - Siêu Thị Điện Tử</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="welcom-package-bander">
+                    <img src="asset/image/img4.jpg" alt="">
+                </div>
+                <div class="product-sale">
+                    <div class="sale-img">
+                        <img src="asset/image/img1.jpg" alt="">
+                    </div>
+                    <div class="row ">
+                        <div class="col-6">
+                            <div class="product-selling">
+                                <ul class="d-flex">
+                                    <li><span>SẢN PHẨM BÁN CHẠY</span></li>
+                                    <li><a href="">xem thêm></a></li>
+                                </ul>
+                            </div>
+                            <div class="category">
+                                <div class="row">
+                                    <div class="col-4 category_type">
+                                        <div class="img_category">
+                                            <img src="asset/image/selling1.jpg" alt="">
+                                        </div>
+                                        <div class="price">
+                                            <span>190K</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 category_type">
+                                        <div class="img_category">
+                                            <img src="asset/image/selling2.jpg" alt="">
+                                        </div>
+                                        <div class="price">
+                                            <span>190K</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 category_type">
+                                        <div class="img_category">
+                                            <img src="asset/image/selling3.jpg" alt="">
+                                        </div>
+                                        <div class="price">
+                                            <span>190K</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="product_featured">
+                                <ul class="d-flex">
+                                    <li><span>THƯƠNG HIỆU NỔI BẬT</span></li>
+                                    <li><a href="">xem thêm></a></li>
+                                </ul>
+                            </div>
+                            <div class="category">
+                                <div class="row">
+                                    <div class="col-4 category_type">
+                                        <div class="img_category">
+                                            <img src="asset/image/selling1.jpg" alt="">
+                                        </div>
+                                        <div class="price">
+                                            <span>FREESHIP TỪ 50%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 category_type">
+                                        <a href="">
+                                            <div class="img_category">
+                                                <img src="asset/image/selling2.jpg" alt="">
+                                            </div>
+                                            <div class="price">
+                                                <span>FREESHIP TỪ 50%</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-4 category_type">
+                                        <div class="img_category">
+                                            <img src="asset/image/selling3.jpg" alt="">
+                                        </div>
+                                        <div class="price">
+                                            <span>FREESHIP TỪ 50%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-sale">
+                        <div class="sale-img">
+                            <img src="asset/image/img2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="container">
+                        <div class="title_menu">
+                            <span>DANH MỤC</span>
+                        </div>
+                        <div class="product-menu">
+                            <ul class="product-menu_list d-flex">
+                                <li class="product-menu_item">
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="product-menu_item">
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="product-menu_item">
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="product-menu_item">
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="product-menu_item">
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="product-menu_item">
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="product-menu_item">
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="product-menu_item">
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="product-menu_item">
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="product-menu_item">
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="title-menu_list">
+                                            <div class="produc-menu_img">
+                                                <img src="asset/image/product-menu_img.png" alt="">
+                                            </div>
+                                            <div class="product-menu_name">
+                                                <a href="">Thời Trang Nam</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="flast-sale">
+                    <div class="container">
+                        <div class="title_flash">
+                            <img src="asset/image/Flash.png" alt="">
+                        </div>
+                        <section class="home">
+                            <div class="slider">
+                                <div class="slide active">
+                                    <div class="row">
+                                        <div class="slide-list col-2">
+                                            <div><a href=""><img src="asset/image/flast-sale1.jpg" alt=""></a></div>
+                                            <div class="price">10.000.000</div>
+                                        </div>
+                                        <div class="slide-list col-2">
+                                            <div><a href=""><img src="asset/image/flast-sale1.jpg" alt=""></a></div>
+                                            <div class="price">10.000.000</div>
+                                        </div>
+                                        <div class="slide-list col-2">
+                                            <div><a href=""><img src="asset/image/flast-sale1.jpg" alt=""></a></div>
+                                            <div class="price">10.000.000</div>
+                                        </div>
+                                        <div class="slide-list col-2">
+                                            <div><a href=""><img src="asset/image/flast-sale1.jpg" alt=""></a></div>
+                                            <div class="price">10.000.000</div>
+                                        </div>
+                                        <div class="slide-list col-2">
+                                            <div><a href=""><img src="asset/image/flast-sale1.jpg" alt=""></a></div>
+                                            <div class="price">10.000.000</div>
+                                        </div>
+                                        <div class="slide-list col-2">
+                                            <div><a href=""><img src="asset/image/flast-sale1.jpg" alt=""></a></div>
+                                            <div class="price">10.000.000</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="row">
+                                        <div class="slide-list col-2">
+                                            <div><a href=""><img src="asset/image/flast-sale2.jpg" alt=""></a></div>
+                                            <div class="price">10.000.000</div>
+                                        </div>
+                                        <div class="slide-list col-2">
+                                            <div><a href=""><img src="asset/image/flast-sale2.jpg" alt=""></a></div>
+                                            <div class="price">10.000.000</div>
+                                        </div>
+                                        <div class="slide-list col-2">
+                                            <div><a href=""><img src="asset/image/flast-sale2.jpg" alt=""></a></div>
+                                            <div class="price">10.000.000</div>
+                                        </div>
+                                        <div class="slide-list col-2">
+                                            <div><a href=""><img src="asset/image/flast-sale2.jpg" alt=""></a></div>
+                                            <div class="price">10.000.000</div>
+                                        </div>
+                                        <div class="slide-list col-2">
+                                            <div><a href=""><img src="asset/image/flast-sale2.jpg" alt=""></a></div>
+                                            <div class="price">10.000.000</div>
+                                        </div>
+                                        <div class="slide-list col-2">
+                                            <div><a href=""><img src="asset/image/flast-sale2.jpg" alt=""></a></div>
+                                            <div class="price">10.000.000</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- controls  -->
+                            <div class="controls">
+                                <div class="prev"><i class="fas fa-chevron-left"></i></div>
+                                <div class="next"><i class="fas fa-chevron-right"></i></div>
+                            </div>
+                        </section>
+                        
+                    </div>
+                </div>
+                <!--  -->
+                <div class="sale-1k">
+                    <div class="row">
+                        <div class="col-4 k-1k-sale">
+                            <img src="asset/image/1k1.jpg" alt="">
+                        </div>
+                        <div class="col-4 k-1k-sale">
+                            <img src="asset/image/1k2.jpg" alt="">
+                        </div>
+                        <div class="col-4 k-1k-sale">
+                            <img src="asset/image/1k3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="shopeeMall">
+                    <div class="header-Mall">
+                        <ul class="d-flex">
+                            <li><a href="">SHOPEE MALL</a></li>
+                            <li >
+                                <img src="asset/image/back1.PNG" alt="">
+                                7 Ngày Miễn Phí Trả Hàng</li>
+                            <li>
+                                <img src="asset/image/back2.PNG" alt="">
+                                Hàng Chính Hãng 100%</li>
+                            <li>
+                                <img src="asset/image/back3.PNG" alt="">
+                                Miễn Phí Vận Chuyển</li>
+                                <li>
+                                    <a href=""><span >xem tất cả</span></a>
+                                </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="slide-shopeeMall fade ">
+                                <img src="asset/image/shopeeMall1.jpg" alt="">
+                            </div>
+                            <div class="slide-shopeeMall fade">
+                                <img src="asset/image/shopeeMall2.jpg" alt="">
+                            </div>
+                            <div class="slide-shopeeMall fade">
+                                <img src="asset/image/shopeeMall3.jpg" alt="">
+                            </div>
+                            <div class="slide-shopeeMall fade">
+                                <img src="asset/image/shopeeMall4.jpg" alt="">
+                            </div>
+                            <div class="dotMall">
+                                <span class="dot"></span> 
+                                <span class="dot"></span> 
+                                <span class="dot"></span> 
+                                <span class="dot"></span> 
+                              </div>
+                        </div>
+                        <div class="col-8">
+                            <ul class="slide-shopeeMall_product d-flex">
+                                <li class="shopeeMall_product_list col-3">
+                                    <div class="shopeeMall_product_item">
+                                        <a href=""><img src="asset/image/Mall-product2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="shopeeMall_product_item">
+                                        <a href=""><img src="asset/image/Mall-product1.jpg" alt=""></a>
+                                        
+                                    </div>
+                                </li>
+                                <li class="shopeeMall_product_list col-3">
+                                    <div class="shopeeMall_product_item">
+                                        <a href=""><img src="asset/image/Mall-product2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="shopeeMall_product_item">
+                                        <a href=""><img src="asset/image/Mall-product1.jpg" alt=""></a>
+                                    </div>
+                                </li>
+                                <li class="shopeeMall_product_list col-3">
+                                    <div class="shopeeMall_product_item">
+                                        <a href=""><img src="asset/image/Mall-product2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="shopeeMall_product_item">
+                                        <a href=""><img src="asset/image/Mall-product1.jpg" alt=""></a>
+                                    </div>
+                                </li>
+                                <li class="shopeeMall_product_list col-3">
+                                    <div class="shopeeMall_product_item">
+                                        <a href=""><img src="asset/image/Mall-product2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="shopeeMall_product_item">
+                                        <a href=""><img src="asset/image/Mall-product1.jpg" alt=""></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="trend-search">
+                    <div class="title_search">
+                        <ul>
+                            <li>XU HƯỚNG TÌM KIẾM</li>
+                            <li>xem thêm</li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="product-trend col d-flex">
+                            <div class="name_product-trend">
+                                <div> <a href="">Tất $ Găng Tay</a></div>
+                               <div><a href=""><span>679k + sản phẩm</span></a></div>
+                            </div>
+                            <div class="img_product-trend">
+                                <img src="asset/image/gangtay.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product-trend col d-flex">
+                            <div class="name_product-trend">
+                                <div> <a href="">Tất $ Găng Tay</a></div>
+                               <div><a href=""><span>679k + sản phẩm</span></a></div>
+                            </div>
+                            <div class="img_product-trend">
+                                <img src="asset/image/gangtay.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product-trend col d-flex">
+                            <div class="name_product-trend">
+                                <div> <a href="">Tất $ Găng Tay</a></div>
+                               <div><a href=""><span>679k + sản phẩm</span></a></div>
+                            </div>
+                            <div class="img_product-trend">
+                                <img src="asset/image/gangtay.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product-trend col d-flex">
+                            <div class="name_product-trend">
+                                <div> <a href="">Tất $ Găng Tay</a></div>
+                               <div><a href=""><span>679k + sản phẩm</span></a></div>
+                            </div>
+                            <div class="img_product-trend">
+                                <img src="asset/image/gangtay.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product-trend col d-flex">
+                            <div class="name_product-trend">
+                                <div> <a href="">Tất $ Găng Tay</a></div>
+                               <div><a href=""><span>679k + sản phẩm</span></a></div>
+                            </div>
+                            <div class="img_product-trend">
+                                <img src="asset/image/gangtay.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+
+    <script src="asset/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="asset/js/popper.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/main.js"></script>
+</body>
+
+</html>
